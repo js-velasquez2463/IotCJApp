@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewNoFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="@string/textNoFilter"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonNoFilter"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="24dp" />
+
+    <TextView
+        android:id="@+id/textViewFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="@string/textFilter"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonFilter"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="24dp" />
+
+    <TextView
+        android:id="@+id/textCharts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="@string/textCharts"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonCharts"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="24dp" />
+
+    <Button
+        android:id="@+id/buttonNoFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="24dp"
+        android:onClick="sendMessageNoFilter"
+        android:text="@string/buttonNoFilter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="24dp" />
+
+    <Button
+        android:id="@+id/buttonFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="24dp"
+        android:onClick="sendMessageFilter"
+        android:text="@string/buttonFilter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonNoFilter"
+        android:layout_marginRight="25dp" />
+
+    <TextView
+        android:id="@+id/textViewRelNoG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="@string/textRelNoG"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonrelNoG"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="24dp" />
+
+    <Button
+        android:id="@+id/buttonrelNoG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="24dp"
+        android:onClick="sendMessageRelNoG"
+        android:text="@string/buttonRelNoG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFilter"
+        android:layout_marginRight="24dp" />
+
+    <Button
+        android:id="@+id/buttonCharts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="24dp"
+        android:onClick="sendMessageGoCharts"
+        android:text="@string/buttonGo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonrelNoG"
+        android:layout_marginRight="24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

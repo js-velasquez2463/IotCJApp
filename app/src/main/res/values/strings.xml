@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">IotCJApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="charts">Show Distance</string>
+    <string name="filter">Deactivate Filter</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="buttonNoFilter">OK</string>
+    <string name="buttonFilter">OK</string>
+    <string name="buttonRelNoG">OK</string>
+
+    <string name="buttonGo">GO</string>
+
+    <string name="textNoFilter">Abs, AM, NO filter</string>
+    <string name="textFilter">Abs, AM, filter</string>
+
+    <string name="textCharts">Go to charts</string>
+    <string name="textRelNoG">Rel, G </string>
+
+
+</resources>
